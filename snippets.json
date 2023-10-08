@@ -118,6 +118,10 @@
                     "code": "pragma solidity ^0.8.0;\n contract myContract{\n function greet(string memory _name)  public view returns(string memory){\n return('Greetings ' + _name)\n}\n}",
                     "description": "Solidity program to return user-specific greeting"
                 },
+                {
+                    "code": "pragma solidity ^0.8.0;\n contract Balance_Contract{\n uint balance = 0;\n function addBalance() public returns(uint balance){\n return balance++\n }\n}",
+                    "description": "Solidity program to create balance and increase balance"
+                }
             ]
         }
       
